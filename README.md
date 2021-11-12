@@ -2,7 +2,7 @@ React Text Overflow Component and Hook
 =========================
 
 
-[![npm downloads](https://img.shields.io/npm/dm/react-lazy-load.svg?style=flat-square)](https://www.npmjs.com/package/react-text-overflow)
+[![npm downloads](https://img.shields.io/npm/dm/react-text-overflow.svg?style=flat-square)](https://www.npmjs.com/package/react-text-overflow)
 
 
 ## Installation
