@@ -1,6 +1,6 @@
 {
   "name": "react-text-overflow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Controls when and how to overflow text",
   "type": "module",
   "main": "./dist/TextOverflow.umd.cjs",
@@ -23,6 +23,10 @@
     "type": "git",
     "url": "git+https://github.com/loktar00/react-text-overflow.git"
   },
+  "files": [
+    "dist",
+    "lib"
+  ],
   "keywords": [
     "react",
     "text",
