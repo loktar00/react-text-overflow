@@ -1,6 +1,8 @@
 React Text Overflow Component and Hook
 =========================
 
+## [See it in action](https://loktar00.github.io/react-text-overflow/)
+
 React Text Overflow is a React component that targets the ability to overflow a single line of text (with ellipses) from the left, or the center, or from an offset. Hoping one day this is entireably possible with CSS but we're not quite there yet.
 
 
@@ -15,6 +17,7 @@ npm i -S react-text-overflow
 ```
 
 ## Examples
+* [Live Examples](https://loktar00.github.io/react-text-overflow/)
 * [In Repo](https://github.com/loktar00/react-text-overflow/blob/master/examples/src/App.tsx)
 
 ## Examples
