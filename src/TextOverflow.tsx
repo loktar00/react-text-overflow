@@ -24,6 +24,7 @@ const TextOverflow = ({
 
         // Fix the ends of our string since we're using RTL
         end = `\u200e${end}\u200e`;
+        start = `\u200e${start}\u200e`;
 
         return (
             <TruncateElement style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0px, max-content))' }} title={text}>
