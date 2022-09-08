@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 import React, { CSSProperties } from 'react';
 
 interface Props extends React.HTMLAttributes<HTMLSpanElement> {
