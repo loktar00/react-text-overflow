@@ -14,7 +14,7 @@ const App = () => (
                 <TextOverflow text="this is some text that we want to truncate. Change the size of the window to check the truncation, it should truncate at the end." />
             </p>
         </section>
-        <h2>Middile truncatation</h2>
+        <h2>Middle truncatation</h2>
         <section>
             <p className="text-content">
                 <TextOverflow text="this is some text that we want to truncate." truncatePosition="middle" />
