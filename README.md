@@ -1,4 +1,4 @@
-React Text Overflow Component and Hook
+React Text Overflow Component
 =========================
 
 ## [See it in action](https://loktar00.github.io/react-text-overflow/)
