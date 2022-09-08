@@ -28,14 +28,14 @@ const App = () => (
             <p className="text-content">
                 <TextOverflow
                     truncatePosition="middle"
-                    startLen={1}
+                    startPos={1}
                     text="this is some text that we want to truncate. Change the size of the window to check the truncation, it should truncate in the center."
                 />
             </p>
             <p>
                 <TextOverflow
                     truncatePosition="middle"
-                    startLen={1}
+                    startPos={1}
                     text="this is some text that we want to truncate. Change the size of the window to check the truncation, it should truncate in the center."
                 />
             </p>
