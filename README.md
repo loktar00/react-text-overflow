@@ -7,6 +7,8 @@ React Text Overflow is a React component that targets the ability to overflow a 
 
 
 [![npm downloads](https://img.shields.io/npm/dm/react-text-overflow.svg?style=flat-square)](https://www.npmjs.com/package/react-text-overflow)
+[![Node.js CI](https://github.com/loktar00/react-text-overflow/actions/workflows/main.yml/badge.svg)](https://github.com/loktar00/react-text-overflow/actions/workflows/main.yml)
+[![pages-build-deployment](https://github.com/loktar00/react-text-overflow/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/loktar00/react-text-overflow/actions/workflows/pages/pages-build-deployment)
 
 
 ## Installation
