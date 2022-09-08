@@ -36,6 +36,7 @@ module.exports = {
             }
         ],
         'max-len': ['error', { code: 500 }],
+        'no-bitwise': 'off',
         'arrow-parens': ['error', 'as-needed'],
         'react/function-component-definition': [1, { namedComponents: 'arrow-function' }],
         'react/jsx-filename-extension': [1, { extensions: ['.tsx', '.jsx'] }],
@@ -44,6 +45,9 @@ module.exports = {
         'react/jsx-indent': [2, 4],
         'react/static-property-placement': [2, 'static public field'],
         'react/no-find-dom-node': 0,
+        'react/require-default-props': [2, {
+            functions: 'defaultArguments'
+        }],
         'jsx-a11y/media-has-caption': 0
     }
 };

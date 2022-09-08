@@ -1,0 +1,20 @@
+body {
+  font-family: "Inter";
+}
+
+.main-container,
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-content {
+  max-width: 132px;
+}
+
+section {
+  background: #f0f0f0;
+  padding: 40px;
+}

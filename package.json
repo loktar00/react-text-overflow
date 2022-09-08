@@ -2,9 +2,22 @@
   "name": "react-text-overflow",
   "version": "0.0.1",
   "description": "Controls when and how to overflow text",
-  "main": "index.ts",
+  "type": "module",
+  "main": "./dist/TextOverflow.umd.cjs",
+  "module": "./dist/TextOverflow.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/TextOverflow.js",
+      "require": "./dist/TextOverflow.umd.cjs"
+    }
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx vite build",
+    "clean": "rimraf lib dist",
+    "lint": "eslint src/TextOverflow.tsx",
+    "prepublish": "npm run clean && npm run build",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -42,5 +55,9 @@
     "typescript": "^4.8.2",
     "vite": "^3.1.0",
     "vite-plugin-dts": "^1.4.1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
   }
 }
