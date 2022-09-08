@@ -5,21 +5,21 @@ import TruncateElement from './TruncateElement';
 type Props = {
     text: string,
     truncatePosition?: 'start' | 'middle' | 'end',
-    startLen?: number
+    startPos?: number
 };
 
 const TextOverflow = ({
     text,
-    startLen = 0,
+    startPos = 0,
     truncatePosition = 'end'
 }: Props) => {
     if (truncatePosition === 'middle') {
         let start = text.slice(0, ~~(text.length / 2));
         let end = text.slice(~~(text.length / 2));
 
-        if (startLen) {
-            start = text.slice(0, startLen);
-            end = text.slice(startLen);
+        if (startPos) {
+            start = text.slice(0, startPos);
+            end = text.slice(startPos);
         }
 
         // Fix the ends of our string since we're using RTL
